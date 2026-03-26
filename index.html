@@ -64,7 +64,7 @@ body::after{
 
 /* ===== LAYOUT ===== */
 .container{width:min(92%,1140px);margin-inline:auto}
-section{padding:120px 0;position:relative;z-index:2}
+section{padding:80px 0;position:relative;z-index:2}
 
 /* ===== NAV ===== */
 nav{
@@ -247,7 +247,7 @@ nav.scrolled{box-shadow:0 4px 40px rgba(0,0,0,0.4);background:rgba(8,8,15,0.85)}
   font-weight:700;color:var(--text);
   letter-spacing:-.02em;margin-bottom:20px;line-height:1.15;
 }
-.sec-subtitle{color:var(--text2);font-size:16px;max-width:600px;margin-bottom:56px;line-height:1.7}
+.sec-subtitle{color:var(--text2);font-size:16px;max-width:600px;margin-bottom:32px;line-height:1.7}
 
 /* ===== ABOUT ===== */
 .about-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:56px;align-items:start}
@@ -282,7 +282,7 @@ nav.scrolled{box-shadow:0 4px 40px rgba(0,0,0,0.4);background:rgba(8,8,15,0.85)}
 .sk-card{
   background:var(--bg-card);
   border:1px solid var(--border);
-  border-radius:18px;padding:28px;
+  border-radius:18px;padding:20px;
   transition:all .4s cubic-bezier(.25,.8,.25,1);
   position:relative;overflow:hidden;
 }
@@ -295,16 +295,16 @@ nav.scrolled{box-shadow:0 4px 40px rgba(0,0,0,0.4);background:rgba(8,8,15,0.85)}
 }
 .sk-card:hover::after{opacity:1}
 .sk-card:hover{border-color:var(--border-p);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,0.25)}
-.sk-card.featured{grid-column:span 2;grid-row:span 2}
+.sk-card.featured{grid-column:span 2}
 .sk-card.wide{grid-column:span 2}
 .sk-icon{
   width:48px;height:48px;border-radius:14px;
   display:flex;align-items:center;justify-content:center;
-  margin-bottom:18px;font-size:24px;
+  margin-bottom:10px;font-size:22px;
   background:linear-gradient(135deg,rgba(139,92,246,0.1),rgba(16,185,129,0.08));
   border:1px solid rgba(139,92,246,0.08);
 }
-.sk-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;color:var(--text);margin-bottom:14px}
+.sk-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;color:var(--text);margin-bottom:10px}
 .sk-tags{display:flex;flex-wrap:wrap;gap:7px}
 .sk-tag{
   font-family:'JetBrains Mono',monospace;font-size:11px;
