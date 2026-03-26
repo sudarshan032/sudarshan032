@@ -1,11 +1,3 @@
-```
-  ____  _   _ ____    _    ____  ____  _   _    _    _   _
- / ___|| | | |  _ \  / \  |  _ \/ ___|| | | |  / \  | \ | |
- \___ \| | | | | | |/ _ \ | |_) \___ \| |_| | / _ \ |  \| |
-  ___) | |_| | |_| / ___ \|  _ < ___) |  _  |/ ___ \| |\  |
- |____/ \___/|____/_/   \_\_| \_\____/|_| |_/_/   \_\_| \_|
-```
-
 ```js
 > sudarshan.init()
 
@@ -13,7 +5,7 @@
     role     : "AI Engineer & Full-Stack Developer",
     company  : "Freedom With AI",
     location : "Hyderabad, India",
-    site     : "sudarshan032.vercel.app"
+    site     : "sudarshan.krait.co.in"
 }
 ```
 
@@ -21,14 +13,19 @@
 
 ### `$ ls ~/skills/`
 
-```
-ai-ml/          tensorflow  langchain  scikit-learn  opencv  rag  xgboost
-languages/      python  java  javascript  rust  c
-backend/        fastapi  flask  django  postgresql  mongodb  redis
-cloud-devops/   docker  kubernetes  aws  gcp  git
-robotics/       ros  gazebo  unity3d  slam
-automation/     n8n  pabbly  blue-prism
-```
+<p align="center">
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="Databases" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60"/></a>
+</p>
+
+<p align="center"><code>AI/ML</code> · <code>Backend</code> · <code>DevOps</code> · <code>Robotics</code> · <code>Automation</code></p>
 
 ---
 
@@ -47,9 +44,9 @@ automation/     n8n  pabbly  blue-prism
 
 ### `$ ping sudarshan`
 
-<a href="https://sudarshan032.vercel.app"><code>portfolio</code></a> · <a href="https://www.linkedin.com/in/sudarshan-sastry-9713b4234/"><code>linkedin</code></a> · <a href="mailto:siddhusastry333@gmail.com"><code>email</code></a>
+<a href="https://sudarshan.krait.co.in"><code>portfolio</code></a> · <a href="https://www.linkedin.com/in/sudarshan-sastry-9713b4234/"><code>linkedin</code></a> · <a href="mailto:siddhusastry333@gmail.com"><code>email</code></a>
 
 ```
-sudarshan@github:~$ echo "the rest lives at sudarshan032.vercel.app"
-the rest lives at sudarshan032.vercel.app
+sudarshan@github:~$ echo "the rest lives at sudarshan.krait.co.in"
+the rest lives at sudarshan.krait.co.in
 ```
