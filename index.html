@@ -82,7 +82,7 @@ nav.scrolled{box-shadow:0 4px 40px rgba(0,0,0,0.4);background:rgba(8,8,15,0.85)}
 .nav-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--text);letter-spacing:-.02em}
 .nav-logo span{color:var(--purple-500)}
 .nav-logo .dot-green{color:var(--green-500)}
-.nav-links{display:flex;gap:32px;list-style:none;align-items:center}
+.nav-links{display:flex;gap:24px;list-style:none;align-items:center}
 .nav-links a{
   font-size:13px;font-weight:500;color:var(--text3);
   text-transform:uppercase;letter-spacing:.1em;
@@ -575,7 +575,7 @@ footer a{color:var(--purple-400)}
 <!-- ===== NAV ===== -->
 <nav>
   <div class="nav-inner">
-    <div class="nav-logo">sudarshan<span>.</span><span class="dot-green">krait.co.in</span></div>
+    <div class="nav-logo">sudarshan<span>.</span><span class="dot-green">S</span></div>
     <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
@@ -1147,7 +1147,7 @@ footer a{color:var(--purple-400)}
   window.addEventListener('resize',resize);resize();
   document.addEventListener('mousemove',e=>{mouse.x=e.clientX;mouse.y=e.clientY});
 
-  const COUNT=Math.min(90,Math.floor(window.innerWidth/14));
+  const COUNT=Math.min(150,Math.floor(window.innerWidth/8));
 
   class P{
     constructor(){
