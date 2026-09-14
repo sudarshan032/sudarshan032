@@ -3,7 +3,8 @@
 
 {
     role     : "AI Engineer & Full-Stack Developer",
-    company  : "Freedom With AI",
+    status   : "Open to AI Engineer roles",
+    research : "IGARSS 2025 (IEEE) — first author",
     location : "Hyderabad, India",
     site     : "sudarshan.krait.co.in"
 }
@@ -19,13 +20,18 @@
   <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="60" height="60"/></a>
   <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="60" height="60"/></a>
   <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60"/></a>
-  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="60" height="60"/></a>
+  <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60"/></a>
   <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="60" height="60"/></a>
   <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="Databases" width="60" height="60"/></a>
   <a href="https://sudarshan.krait.co.in"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60"/></a>
 </p>
 
-<p align="center"><code>AI/ML</code> · <code>Backend</code> · <code>DevOps</code> · <code>Robotics</code> · <code>Automation</code></p>
+<p align="center"><code>AI/ML</code> · <code>LLM &amp; RAG</code> · <code>Backend</code> · <code>Voice AI</code> · <code>Automation</code> · <code>Robotics</code></p>
+
+<p align="center">
+  <a href="https://ieeexplore.ieee.org/abstract/document/11243721"><b>Obstacle Avoidance in Drones Using Deep Reinforcement Learning</b></a><br>
+  <sub>First author · IGARSS 2025, IEEE · DOI 10.1109/IGARSS55030.2025.11243721</sub>
+</p>
 
 ---
 
@@ -44,7 +50,7 @@
 
 ### `$ ping sudarshan`
 
-<a href="https://sudarshan.krait.co.in"><code>portfolio</code></a> · <a href="https://www.linkedin.com/in/sudarshan-sastry-9713b4234/"><code>linkedin</code></a> · <a href="mailto:siddhusastry333@gmail.com"><code>email</code></a>
+<a href="https://sudarshan.krait.co.in"><code>portfolio</code></a> · <a href="https://www.linkedin.com/in/sudarshansastry/"><code>linkedin</code></a> · <a href="mailto:siddhusastry333@gmail.com"><code>email</code></a>
 
 ```
 sudarshan@github:~$ echo "the rest lives at sudarshan.krait.co.in"
