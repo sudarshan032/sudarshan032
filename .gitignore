@@ -1,0 +1,11 @@
+# Allow-list: this folder is the PUBLIC website repo (github.com/sudarshan032/sudarshan032).
+# Ignore everything, then allow only the files that are meant to be public.
+/*
+!/.gitignore
+!/index.html
+!/README.md
+!/IMPLEMENTATION_CHECKPOINT.md
+!/vercel.json
+!/photo.jpg
+!/resume.pdf
+!/docs/
