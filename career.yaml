@@ -1,0 +1,233 @@
+# career.yaml — structured career record for the portfolio site and the Second Brain bot.
+# Facts only from Vault documents, me.md and old resumes. Every gap is "TODO: ask Sudarshan". Never invent.
+# Each entry has a stable id; Vault index.yaml `proves:` points at these ids.
+# PUBLIC file: nothing mac-only goes here (no phone, CTC, ID numbers, undisclosed roles).
+# Sources: [R] resume (old/resumes/Sudarshan_Sastry_Resume.tex, Oct 2026) · [M] me.md · [D] Vault document · [U] told by Sudarshan, 20 Oct 2026
+
+profile:
+  id: profile
+  name: "G Sudarshan Sastry"                                   # [R]
+  name_for_applications: "Sudarshan Sastry Govindaluri"       # [M]
+  headline: "Full-Stack AI Engineer | LLM & RAG"              # [R]
+  location: "Hyderabad, India"                                # [R]
+  email: "siddhusastry333@gmail.com"                          # [R]
+  links:
+    linkedin: "https://www.linkedin.com/in/sudarshansastry/"  # [R]
+    github: "https://github.com/sudarshan032"                 # [R]
+    portfolio: "https://sudarshan.krait.co.in"                # [R]
+  languages: [English, Telugu, Hindi]                         # [R]
+  summary: "Full-Stack AI Engineer shipping LLM, RAG and voice-agent systems end to end: FastAPI/Django backends, React/Next.js frontends, PostgreSQL/Redis and Dockerised deployments on AWS, GCP and OCI. Delivered 14+ LLM/RAG systems for 9 clients, from schema design to production. First-author IEEE IGARSS 2025 researcher with an embedded-systems and robotics background."  # [R]
+  target_roles: [AI/ML Engineer, AI Automation Engineer, AI Developer]  # [U]
+  locations_open_to: [Hyderabad, Bengaluru, Coimbatore, Chennai, Remote]  # [M]
+  availability: "Immediate (no notice period)"                # [M]
+
+education:
+  - id: edu-klu-btech
+    degree: "B.Tech, Electronics and Communication Engineering"
+    specialization: "Data Science & Big Data Analytics"
+    institution: "KL University (Koneru Lakshmaiah Education Foundation), Hyderabad off-campus"
+    start: "2021-08"                                          # [R]
+    end: "2025-08"                                            # [R]
+    result: "First Class; CGPA 8.59/10"                       # [R] CGPA, [D] degree certificate "First Class"
+    passed: "2025-05"                                         # [D] degree certificate: final exam May 2025
+  - id: edu-cbse-xii
+    degree: "CBSE Class XII (Senior School Certificate Examination 2021)"
+    institution: "Viswasanthi EM High School, Gandigunta, Krishna Dt, AP"  # [D] marks statement
+    end: "2021"                                               # [D] dated 2021-07-30
+    result: "95.2%"                                           # [D] computed: 476/500 on the marks statement
+  - id: edu-cbse-x
+    degree: "CBSE Class X (Secondary School Examination, March 2019)"
+    institution: "Viswasanthi EM High School, Gandigunta, Krishna Dt, AP"  # [D] marks statement
+    end: "2019"                                               # [D] result declared 2019-05-06
+    result: "91.8%"                                           # [D] computed: 459/500 on the marks statement
+
+experience:
+  - id: exp-fwai
+    org: "Freedom With AI"
+    role: "Associate AI Developer (full-time)"
+    mode: "Remote"                                            # [R]
+    start: "2026-04-01"                                       # [D] experience + relieving letters
+    end: "2026-07-11"                                         # [D] relieving letter
+    highlights:                                               # [R]
+      - "Delivered 14+ LLM/RAG systems across 9 client accounts with provider-agnostic LLM routing, vector retrieval, FastAPI + Next.js services and n8n orchestration."
+      - "Productised a webinar & call attribution platform (Next.js, PostgreSQL/JSONB) reconciling 4 export sources into one schema; redeployed to 5 tenants."
+      - "Ran a causal study on an AI calling channel across 100+ webinars and 5 cohorts."
+      - "Recovered ~37,000 validated CRM contacts and 61 automations by reverse-engineering an undocumented internal API."
+      - "Shipped an AI tool suite on Cloud Run (Next.js, 124 commits)."
+      - "Operated 16+ Dockerised services on a six-VM AWS/GCP/OCI fleet; ran KT for ~12 colleagues."
+  - id: exp-deep-algorithms
+    org: "Deep Algorithms Solutions Pvt Ltd"
+    role: "Software Engineer"
+    location: "Hyderabad, India"
+    start: "2025-05-05"                                       # [D] offer letter + experience letter
+    end: "2025-10-30"                                         # [D] experience letter (dated 2025-11-08)
+    notes: "Resume says Mar–Sep 2025; documents say 5 May – 30 Oct 2025."
+    highlights:                                               # [R]
+      - "Built a DDoS detection path with packet-to-flow aggregation (per-source packet rate, source-IP entropy, protocol mix)."
+      - "Implemented TLS fingerprinting from ClientHello metadata; owned feature specs and acceptance tests with QA."
+
+internships:
+  - id: intern-fwai
+    org: "Freedom With AI"
+    role: "AI Intern"
+    start: "2025-11-11"                                       # [D] internship certificate
+    end: "2026-03-31"                                         # [D]
+  - id: intern-iit-mandi
+    org: "CAIR Lab, IIT Mandi"
+    role: "Research Intern"                                   # [R]
+    start: "2024-12-21"                                       # [D] certificate
+    end: "2025-03-21"                                         # [D]
+    highlights:                                               # [R]
+      - "Wrote STM32 BLDC motor firmware in C with timer-driven PWM commutation and closed-loop speed control."
+      - "Fused multi-sensor gas readings on Arduino with calibration curves, drift compensation and noise filtering."
+  - id: intern-akoscowl
+    org: "AKOSCOWL DOT INVENTIONS Pvt. Ltd."
+    role: "AI-ML Intern"
+    location: "Hyderabad, India"
+    start: "2024-02-06"                                       # [D] certificate
+    end: "2024-09-28"                                         # [D]
+    highlights:                                               # [R]
+      - "Designed drone power and control electronics in KiCad and built a ROS/Gazebo model."
+      - "Developed obstacle-avoidance planners emitting MAVLink waypoints through QGroundControl mission flows."
+  - id: intern-ibm-aicte
+    org: "AICTE · IBM SkillsBuild (Edunet Foundation)"
+    role: "AI & Cloud Intern (4 weeks)"
+    start: "2024-07-09"                                       # [D] offer letter (only document; no completion certificate)
+    end: ""
+  - id: intern-sparks
+    org: "The Sparks Foundation (GRIP)"
+    role: "Data Science & Business Analytics Intern — selection"
+    start: "2024-07-01"                                       # [D] selection certificate (selection only)
+    end: ""
+  - id: intern-aicte-google-aiml
+    org: "AICTE · EduSkills · Google"
+    role: "AI-ML Virtual Internship (10 weeks, Google for Developers)"
+    start: "2024-01"                                          # [D] certificate: "During January - March 2024"
+    end: "2024-03"                                            # [D]
+  - id: intern-bharat
+    org: "Bharat Intern"
+    role: "Machine Learning Intern"
+    start: "2023-12-10"                                       # [D] certificate
+    end: "2024-01-10"                                         # [D]
+    highlights: ["House-price prediction (XGBoost), TF-IDF movie recommender, Iris classification."]  # [R]
+  - id: intern-aicte-aws-data-eng
+    org: "AICTE · EduSkills · AWS Academy"
+    role: "Data Engineering Virtual Internship"
+    start: "2023-09"                                          # [R]
+    end: "2023-11"                                            # [R] [D]
+  - id: intern-codeclause
+    org: "CodeClause"
+    role: "Python Development Intern"
+    start: "2023-07"                                          # [D] completion letter
+    end: "2023-08"                                            # [D]
+    highlights: ["Voice assistant, plagiarism checker, URL shortener, music player; awarded a Letter of Recommendation."]  # [R]
+  - id: intern-aicte-blue-prism
+    org: "AICTE · EduSkills · SS&C Blue Prism"
+    role: "Intelligent Automation Virtual Internship"
+    start: "2023-05"                                          # [R]
+    end: "2023-07"                                            # [R] [D]
+  - id: intern-coincent
+    org: "Coincent"
+    role: "AI with Python Intern"
+    start: "2023-05-01"                                       # [D] certificate
+    end: "2023-06-30"                                         # [D]
+    highlights: ["Landmark-detection project, after a 2-month AI with Python training program."]  # [R]
+  - id: intern-coders-cave
+    org: "Coders Cave"
+    role: "Python Development Virtual Intern (1 month)"
+    start: ""                                                 # [D] certificate: 1 month, undated
+    end: ""
+    highlights: ["Music player, calculator and two other GUI apps."]  # [R]
+  - id: intern-aicte-aws-aiml
+    org: "AICTE · EduSkills · AWS Academy"
+    role: "AI-ML Virtual Internship"
+    start: "2022-07"                                          # [R]
+    end: "2022-09"                                            # [R] [D]
+
+projects:                                                     # all [R] unless noted
+  - id: proj-uav-drl
+    name: "UAV Obstacle Avoidance with Deep RL"
+    year: "2025"
+    stack: [Python, Unity3D, DQL, DDPG]
+    summary: "DQL and DDPG agents in Unity3D comparing 2D LiDAR vs depth estimation for fixed-wing UAVs."
+    publication: "First author, IEEE IGARSS 2025 — Obstacle Avoidance in Drones using Deep Reinforcement Learning (DOI 10.1109/IGARSS55030.2025.11243721)"
+    url: "https://ieeexplore.ieee.org/abstract/document/11243721"
+  - id: proj-match-check
+    name: "Match Check — AI Deal-Breaker Detector for Matchmakers"
+    year: "2026"
+    stack: [JavaScript, Claude API, Node Test Runner]
+    summary: "LLM extracts deal-breakers from bios; a deterministic engine scores matches with traceable verdicts."
+    url: "https://sudarshan032.github.io/date-crew-match-check/"
+  - id: proj-content-engine
+    name: "Content Engine — Multi-Tenant Script Generation"
+    stack: [FastAPI, React, Qdrant, SearXNG, n8n, GCP, Oracle Cloud]
+    summary: "Vector retrieval over a research corpus plus live search and trend ingestion for templated script generation."
+    url: "TODO: ask Sudarshan"
+  - id: proj-appflowy-ai
+    name: "AppFlowy-AI — Local-First AI Workspace"
+    year: "2026"                                              # git history: single commit 2026-01-20 "v1 - text to tables working"
+    status: "Unfinished"                                      # [U]
+    stack: [Flutter, Rust, SQLite, Ollama, Vector Search]
+    summary: "Offline AI workspace: SQLite store, two-way YAML projections, local vector search, agent router to Ollama models."
+    url: "https://github.com/sudarshan032/AppFlowy-AI"
+  - id: proj-story-engine
+    name: "AI Story Writing Engine — RAG Platform"
+    year: "TODO: ask Sudarshan"
+    stack: [React, Flask, MongoDB, FAISS, Azure OpenAI, WebSockets, Vosk STT]
+    summary: "Built the core narrative engine: RAG, intent-based story/chat routing and WebSocket speech-to-text. The product is invite-only."  # [U] + [R]
+    url: "https://aumicflow-website.vercel.app/"              # [U]
+  - id: proj-instagram-automation
+    name: "Instagram Content Automation Pipeline"
+    year: "2025"                                              # repo commit history: 2025-10-22
+    stack: [n8n, Gemini / OpenAI APIs, Instagram Graph API, Cron]
+    summary: "RSS-to-post publishing with AI captions/images, approval gate and retry; 100+ posts/month unattended."
+    url: "https://github.com/sudarshan032/instagram-posting-automation"
+  - id: proj-emotion-ai
+    name: "Multimodal Emotion-Aware Conversational AI"
+    year: "2024"                                              # repo commit history: 2024-06-28 to 2024-07-01
+    stack: [Flask, AssemblyAI, Wav2Vec2, Keras, librosa, OpenAI]
+    summary: "STT + speech-emotion recognition + LLM responses with TTS fallback and session memory."
+    url: "https://github.com/sudarshan032/emotion_recognition"
+
+certifications:                                               # [D] certificate files; names as on [R]
+  - {id: cert-ai-900, name: "Microsoft Azure AI Fundamentals (AI-900)", issuer: Microsoft, date: "2023-05-29"}
+  - {id: cert-oci-data-science, name: "OCI 2023 Data Science Professional", issuer: Oracle, date: "2023-09-01"}
+  - {id: cert-oci-foundations, name: "OCI 2023 Foundations Associate", issuer: Oracle, date: "2023-08-31"}
+  - {id: cert-salesforce-ai, name: "Salesforce AI Associate", issuer: Salesforce, date: "2024-11-03"}
+  - {id: cert-blue-prism-ad, name: "SS&C Blue Prism Associate Developer", issuer: "SS&C Blue Prism", date: "2023-06-24"}
+  - {id: cert-mongodb-python, name: "MongoDB Python Developer Path", issuer: MongoDB, date: "2023-06-25"}
+  - {id: cert-aviatrix-ace, name: "Aviatrix Multicloud Network Associate (ACE)", issuer: Aviatrix, date: "2023"}
+  - {id: cert-aa-advanced, name: "Automation Anywhere Advanced Certification (A360)", issuer: "Automation Anywhere", date: "2024-10-07"}
+  - {id: cert-aa-essentials, name: "Automation Anywhere Essentials Certification (A360)", issuer: "Automation Anywhere", date: "2024-10-07"}
+  - {id: cert-ef-set, name: "EF SET English Certificate (C2 Proficient, 80/100)", issuer: "EF SET", date: "2026-09-25"}
+  - {id: spec-self-driving-cars, name: "Self-Driving Cars Specialization (4 courses)", issuer: "Coursera · University of Toronto", date: "2024-10-31"}
+  - {id: spec-six-sigma-yellow-belt, name: "Six Sigma Yellow Belt Specialization", issuer: "Coursera · Kennesaw State University", date: "2024-10-31"}
+
+hackathons:                                                   # [D]
+  - {id: hack-jhub-2022, name: "JHub 2.0 Regional Level Hackathon 2022 (JNTUH J-Hub)", result: "1st place [R]", date: "2022-06-21"}
+  - {id: hack-hackfest-2022, name: "HackFest 2022 Regional Hackathon (ACE Engineering College · JNTUH J-Hub)", result: participation, date: "2022-06-18"}
+  - {id: hack-modifest-2021, name: "MODIFEST State Hackathon (MLR Institute of Technology)", result: participation, date: "2021-12-04"}
+  - {id: hack-codekaze-2023, name: "Coding Ninjas Codekaze June 2023, Round 1", result: participation, date: "2023-07-04"}
+  - {id: hack-buildwithindia-2023, name: "HackWithIndia BuildWithIndia", result: "Top 5000 of 25000 teams", date: "2023"}
+  - {id: hack-impactech-2023, name: "ImpacTech Hackathon 2k23", result: participation, date: "2023"}
+  - {id: hack-epics-2022, name: "EPICS Social Internship Workshop (KL University · KLH GLUG · Swecha)", result: participation, date: "2022-10-20"}
+
+skills:                                                       # [R]
+  languages: [Python, JavaScript/TypeScript, C, Java, Rust, SQL]
+  backend_web: [FastAPI, Flask, Django, REST API Design, Next.js, React, Node.js, Prisma, WebSockets, WebRTC, Pipecat]
+  ai_llm: [RAG, FAISS, Qdrant, pgvector, LangChain, LLM Routing, LLM-as-Judge Evals, Gemini/OpenAI/Claude APIs, Ollama, PyTorch, TensorFlow, scikit-learn]
+  infra_data: [Docker, Linux, AWS/GCP/OCI, Cloud Run, Vercel, PostgreSQL, Supabase, Redis, MongoDB, SQLite, Git]
+  automation_robotics: [n8n, Pabbly, Blue Prism RPA, Webhooks, ROS, Gazebo, Unity3D, KiCad, STM32, MATLAB]
+
+open_source:
+  - id: oss-prompt-studio
+    project: "prompt-studio (by Joey, AGPL)"                  # [U]
+    contribution: "One localization / accessibility commit touching 69 files."  # [U]
+    merged: false                                             # [U] not merged upstream
+    status: "Planned open-source rebrand"                     # [U]
+    fork: "github.com/sudarshan032/prompt-studio (private)"
+
+achievements:                                                 # [R]
+  - "Selected for Amazon ML Summer School 2023"
+  - "Official Coding Mentor, Department of ECE, KL University"
+  - "Four Letters of Recommendation — CodeClause and three KL University faculty, including the ECE Head of Department"

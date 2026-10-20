@@ -9,3 +9,6 @@
 !/photo.jpg
 !/resume.pdf
 !/docs/
+/docs/index.yaml
+/docs/graph.json
+!/career.yaml
