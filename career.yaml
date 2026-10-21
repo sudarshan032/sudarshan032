@@ -55,6 +55,11 @@ experience:
       - "Recovered ~37,000 validated CRM contacts and 61 automations by reverse-engineering an undocumented internal API."
       - "Shipped an AI tool suite on Cloud Run (Next.js, 124 commits)."
       - "Operated 16+ Dockerised services on a six-VM AWS/GCP/OCI fleet; ran KT for ~12 colleagues."
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "As an Associate AI Developer at Freedom With AI, I delivered 14+ LLM/RAG systems across 9 client accounts."
+      - "There I built provider-agnostic LLM routing, vector retrieval, FastAPI and Next.js services, and n8n orchestration."
+      - "I productised a webinar and call attribution platform in Next.js and PostgreSQL that reconciled 4 export sources into one schema and was redeployed to 5 tenants."
+      - "I operated 16+ Dockerised services on a six-VM AWS, GCP and OCI fleet."
   - id: exp-deep-algorithms
     org: "Deep Algorithms Solutions Pvt Ltd"
     role: "Software Engineer"
@@ -66,6 +71,9 @@ experience:
       - "Built a DDoS detection path with packet-to-flow aggregation (per-source packet rate, source-IP entropy, protocol mix)."
       - "Implemented TLS fingerprinting from ClientHello metadata; owned feature specs and acceptance tests with QA."
 
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "As a Software Engineer at Deep Algorithms Solutions, I built a DDoS detection path using packet-to-flow aggregation of per-source packet rate, source-IP entropy and protocol mix."
+      - "I implemented TLS fingerprinting from ClientHello metadata and owned feature specs and acceptance tests with QA."
 internships:
   - id: intern-fwai
     org: "Freedom With AI"
@@ -80,6 +88,9 @@ internships:
     highlights:                                               # [R]
       - "Wrote STM32 BLDC motor firmware in C with timer-driven PWM commutation and closed-loop speed control."
       - "Fused multi-sensor gas readings on Arduino with calibration curves, drift compensation and noise filtering."
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "As a Research Intern at CAIR Lab, IIT Mandi, I wrote STM32 BLDC motor firmware in C with timer-driven PWM commutation and closed-loop speed control."
+      - "I also fused multi-sensor gas readings on Arduino using calibration curves, drift compensation and noise filtering."
   - id: intern-akoscowl
     org: "AKOSCOWL DOT INVENTIONS Pvt. Ltd."
     role: "AI-ML Intern"
@@ -89,6 +100,9 @@ internships:
     highlights:                                               # [R]
       - "Designed drone power and control electronics in KiCad and built a ROS/Gazebo model."
       - "Developed obstacle-avoidance planners emitting MAVLink waypoints through QGroundControl mission flows."
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "As an AI-ML Intern at AKOSCOWL DOT INVENTIONS, I designed drone power and control electronics in KiCad and built a ROS/Gazebo model."
+      - "I developed obstacle-avoidance planners that emit MAVLink waypoints through QGroundControl mission flows."
   - id: intern-ibm-aicte
     org: "AICTE · IBM SkillsBuild (Edunet Foundation)"
     role: "AI & Cloud Intern (4 weeks)"
@@ -110,6 +124,8 @@ internships:
     start: "2023-12-10"                                       # [D] certificate
     end: "2024-01-10"                                         # [D]
     highlights: ["House-price prediction (XGBoost), TF-IDF movie recommender, Iris classification."]  # [R]
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "As a Machine Learning Intern at Bharat Intern, I built a house-price predictor with XGBoost, a TF-IDF movie recommender and an Iris classifier."
   - id: intern-aicte-aws-data-eng
     org: "AICTE · EduSkills · AWS Academy"
     role: "Data Engineering Virtual Internship"
@@ -121,6 +137,8 @@ internships:
     start: "2023-07"                                          # [D] completion letter
     end: "2023-08"                                            # [D]
     highlights: ["Voice assistant, plagiarism checker, URL shortener, music player; awarded a Letter of Recommendation."]  # [R]
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "As a Python Development Intern at CodeClause, I built a voice assistant, a plagiarism checker, a URL shortener and a music player, and received a Letter of Recommendation."
   - id: intern-aicte-blue-prism
     org: "AICTE · EduSkills · SS&C Blue Prism"
     role: "Intelligent Automation Virtual Internship"
@@ -132,6 +150,8 @@ internships:
     start: "2023-05-01"                                       # [D] certificate
     end: "2023-06-30"                                         # [D]
     highlights: ["Landmark-detection project, after a 2-month AI with Python training program."]  # [R]
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "At Coincent I completed a 2-month AI with Python training program and then built a landmark-detection project."
   - id: intern-coders-cave
     org: "Coders Cave"
     role: "Python Development Virtual Intern (1 month)"
@@ -152,17 +172,26 @@ projects:                                                     # all [R] unless n
     summary: "DQL and DDPG agents in Unity3D comparing 2D LiDAR vs depth estimation for fixed-wing UAVs."
     publication: "First author, IEEE IGARSS 2025 — Obstacle Avoidance in Drones using Deep Reinforcement Learning (DOI 10.1109/IGARSS55030.2025.11243721)"
     url: "https://ieeexplore.ieee.org/abstract/document/11243721"
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I am the first author of an IEEE IGARSS 2025 paper, \"Obstacle Avoidance in Drones using Deep Reinforcement Learning\"."
+      - "In that work I trained DQL and DDPG agents in Unity3D to compare 2D LiDAR with depth estimation for fixed-wing UAVs."
   - id: proj-match-check
     name: "Match Check — AI Deal-Breaker Detector for Matchmakers"
     year: "2026"
     stack: [JavaScript, Claude API, Node Test Runner]
     summary: "LLM extracts deal-breakers from bios; a deterministic engine scores matches with traceable verdicts."
     url: "https://sudarshan032.github.io/date-crew-match-check/"
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I built Match Check, a deal-breaker detector for matchmakers: an LLM extracts deal-breakers from bios and a deterministic engine scores each match."
+      - "Every Match Check verdict is traceable; it is written in JavaScript with the Claude API and Node's test runner."
   - id: proj-content-engine
     name: "Content Engine — Multi-Tenant Script Generation"
     stack: [FastAPI, React, Qdrant, SearXNG, n8n, GCP, Oracle Cloud]
     summary: "Vector retrieval over a research corpus plus live search and trend ingestion for templated script generation."
     url: ""
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I built a multi-tenant content engine that combines vector retrieval over a research corpus with live search and trend ingestion for templated script generation."
+      - "It runs on FastAPI and React with Qdrant, SearXNG and n8n, deployed on GCP and Oracle Cloud."
   - id: proj-appflowy-ai
     name: "AppFlowy-AI — Local-First AI Workspace"
     year: "2026"                                              # git history: single commit 2026-01-20 "v1 - text to tables working"
@@ -170,18 +199,27 @@ projects:                                                     # all [R] unless n
     stack: [Flutter, Rust, SQLite, Ollama, Vector Search]
     summary: "Offline AI workspace: SQLite store, two-way YAML projections, local vector search, agent router to Ollama models."
     url: "https://github.com/sudarshan032/AppFlowy-AI"
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I am building AppFlowy-AI, an offline AI workspace with a SQLite store, two-way YAML projections and local vector search."
+      - "Its agent router dispatches work to local Ollama models."
   - id: proj-story-engine
     name: "AI Story Writing Engine — RAG Platform"
     year: ""
     stack: [React, Flask, MongoDB, FAISS, Azure OpenAI, WebSockets, Vosk STT]
     summary: "Built the core narrative engine: RAG, intent-based story/chat routing and WebSocket speech-to-text. The product is invite-only."  # [U] + [R]
     url: "https://aumicflow-website.vercel.app/"              # [U]
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I built the core narrative engine of an AI story-writing platform, with RAG, intent-based story and chat routing, and WebSocket speech-to-text."
+      - "The platform uses React, Flask, MongoDB, FAISS and Azure OpenAI; the product is invite-only."
   - id: proj-instagram-automation
     name: "Instagram Content Automation Pipeline"
     year: "2025"                                              # repo commit history: 2025-10-22
     stack: [n8n, Gemini / OpenAI APIs, Instagram Graph API, Cron]
     summary: "RSS-to-post publishing with AI captions/images, approval gate and retry; 100+ posts/month unattended."
     url: "https://github.com/sudarshan032/instagram-posting-automation"
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I built an n8n pipeline that turns RSS items into Instagram posts with AI-generated captions and images, an approval gate and retries."
+      - "It published 100+ posts a month unattended."
   - id: proj-emotion-ai
     name: "Multimodal Emotion-Aware Conversational AI"
     year: "2024"                                              # repo commit history: 2024-06-28 to 2024-07-01
@@ -189,6 +227,9 @@ projects:                                                     # all [R] unless n
     summary: "STT + speech-emotion recognition + LLM responses with TTS fallback and session memory."
     url: "https://github.com/sudarshan032/emotion_recognition"
 
+    email_facts:                                            # approved 21 Oct 2026; only restates this entry
+      - "I built a multimodal conversational AI that combines speech-to-text, speech-emotion recognition and LLM responses."
+      - "It uses Wav2Vec2 and a Keras classifier for emotion, with a TTS fallback and session memory."
 certifications:                                               # [D] certificate files; names as on [R]
   - {id: cert-ai-900, name: "Microsoft Azure AI Fundamentals (AI-900)", issuer: Microsoft, date: "2023-05-29"}
   - {id: cert-oci-data-science, name: "OCI 2023 Data Science Professional", issuer: Oracle, date: "2023-09-01"}
