@@ -1,5 +1,5 @@
 # career.yaml — structured career record for the portfolio site and the Second Brain bot.
-# Facts only from Vault documents, me.md and old resumes. Every gap is "TODO: ask Sudarshan". Never invent.
+# Facts only from Vault documents, me.md and old resumes. Unknown values are left empty (""); open questions live in the private Vault/me.md. Never invent.
 # Each entry has a stable id; Vault index.yaml `proves:` points at these ids.
 # PUBLIC file: nothing mac-only goes here (no phone, CTC, ID numbers, undisclosed roles).
 # Sources: [R] resume (old/resumes/Sudarshan_Sastry_Resume.tex, Oct 2026) · [M] me.md · [D] Vault document · [U] told by Sudarshan, 20 Oct 2026
@@ -162,7 +162,7 @@ projects:                                                     # all [R] unless n
     name: "Content Engine — Multi-Tenant Script Generation"
     stack: [FastAPI, React, Qdrant, SearXNG, n8n, GCP, Oracle Cloud]
     summary: "Vector retrieval over a research corpus plus live search and trend ingestion for templated script generation."
-    url: "TODO: ask Sudarshan"
+    url: ""
   - id: proj-appflowy-ai
     name: "AppFlowy-AI — Local-First AI Workspace"
     year: "2026"                                              # git history: single commit 2026-01-20 "v1 - text to tables working"
@@ -172,7 +172,7 @@ projects:                                                     # all [R] unless n
     url: "https://github.com/sudarshan032/AppFlowy-AI"
   - id: proj-story-engine
     name: "AI Story Writing Engine — RAG Platform"
-    year: "TODO: ask Sudarshan"
+    year: ""
     stack: [React, Flask, MongoDB, FAISS, Azure OpenAI, WebSockets, Vosk STT]
     summary: "Built the core narrative engine: RAG, intent-based story/chat routing and WebSocket speech-to-text. The product is invite-only."  # [U] + [R]
     url: "https://aumicflow-website.vercel.app/"              # [U]
