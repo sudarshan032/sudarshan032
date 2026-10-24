@@ -165,6 +165,17 @@ internships:
     end: "2022-09"                                            # [R] [D]
 
 projects:                                                     # all [R] unless noted
+  - id: proj-change-guardian
+    name: "Change Guardian — AI Agent on FalkorDB"
+    year: "2026"                                              # [U] graph hackathon project; repo history Oct 2026
+    stack: [Python, FalkorDB, Cypher, MCP, Vercel, FalkorDB Cloud]
+    summary: "An AI agent that checks IT changes against what systems actually do: one graph of declared vs observed dependencies, 18 MCP tools, traceable steps, approval-gated CMDB fixes and a memory graph."  # [U] README
+    url: "https://change-guardian.vercel.app"                 # [U] live demo
+    repo: "https://github.com/sudarshan032/change-guardian"   # [U]
+    email_facts:                                            # added 24 Oct 2026 from the project README (approved by Sudarshan)
+      - "I built Change Guardian, an AI agent on FalkorDB that checks IT changes against what systems actually do, so a \"low-risk\" patch that really reaches 51 hospitals is caught before it runs."
+      - "Its agent picks from 18 MCP tools and streams every step (the tool it chose, why, the result, time and cost), and approved findings become facts it recalls in later reviews."
+      - "It was measured against an answer key: 100% precision and recall on 109 planted drifts with 0 false positives, and it runs live on Vercel and FalkorDB Cloud with a $1 daily cost cap."
   - id: proj-uav-drl
     name: "UAV Obstacle Avoidance with Deep RL"
     year: "2025"
